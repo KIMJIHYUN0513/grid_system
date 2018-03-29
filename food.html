@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <style>
+        .flex{
+            display:flex;
+            flex-wrap:wrap;
+            padding:0px 100px;
+        }
+        .flex div{
+        width:325px;
+        border:1px solid gray;
+        border-radius:10px;
+        padding:10px;
+        margin:10px;
+        }
+        .flex img{
+        width:300px;
+        border-radius:10px;
+        }
+    </style>
+</head>
+<body>
+     <nav class="navbar navbar-inverse">
+    <div class="container-fluid container">
+    <div class="navbar-header">
+     <a class="navbar-brand" href="#">My Album</a>
+    </div>
+        <ul class="nav navbar-nav">
+      <li><a href="grid.html">likelion6</a></li><!--bootstrap-->
+      <li><a href="hobby.html">hobby</a></li><!--inline-bolck-->
+      <li><a href="food.html">food</a></li><!--grid-->
+      <li><a href="view.html">view</a></li><!--flex-->
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="flex">
+        <div>
+            <img src="food/food1.jpg"></img>
+            <hr>
+            <h3>카페_이태원</h3>
+        </div>
+        <div>
+              <img src="food/food2.jpg"></img>
+            <hr>
+            <h3>카레_이태원</h3>
+        </div>
+        <div>
+              <img src="food/food3.jpg"></img>
+            <hr>
+            <h3>떡볶이_오산</h3>
+        </div>
+        <div>
+              <img src="food/food4.jpg"></img>
+            <hr>
+            <h3>낙곱새_부산</h3>
+        </div>
+        <div>
+              <img src="food/food5.jpg"></img>
+            <hr>
+            <h3>프레즐_앤티앤스</h3>
+        </div>
+    </div>
+</body>
+</html>
